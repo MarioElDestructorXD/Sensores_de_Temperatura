@@ -48,7 +48,7 @@ void loop() {
   Serial.print(h);
   Serial.print(",");
   //-----------------------------------------------------------------------------
-  //--------------------SENSOR F-28-------------------------------------------
+  //--------------------SENSOR FC-28-------------------------------------------
   valorHumedad = analogRead(sensor);
   valorHumedad =  map(analogRead(sensor), 0, 1023,  100, 0);
   Serial.print("SENSOR FC-28");
